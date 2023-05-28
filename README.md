@@ -46,9 +46,16 @@ account on ElecLand or sign in if they already have an account.
 <!-- technology -->
 ## Main Features
 
+### Home Page
+<div align="center">
+  <img src="media/1.gif" width="50%" alt="home page">
+</div>
+On the home page users can navigate through the about us, top products, categories, and our features sections.
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
+
 
 ### Prerequisites to use it on local host
 
