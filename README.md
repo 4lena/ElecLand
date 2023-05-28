@@ -110,7 +110,7 @@ After checking out, users will be redirected to the invoice page.
 ## Getting Started
 
 
-### Prerequisites to use it on local host
+### Prerequisites 
 
 * PHP
 * Laravel
