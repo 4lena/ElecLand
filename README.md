@@ -64,7 +64,7 @@ To register, users can click on the register button located on the drop-down men
 
 ### Login 
 <div align="center">
-  <img src="media/3.gif" width="0%" alt="home page">
+  <img src="media/3.gif" width="50%" alt="home page">
 </div>
 To login, users can click on the login button located on the drop-down menu on the right corner of the page. Then fill out the registration form.
 
