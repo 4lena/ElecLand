@@ -112,61 +112,49 @@ After checking out, users will be redirected to the invoice page.
 
 ### Prerequisites to use it on local host
 
-* MongoDB.
-* Visual Studio Code.
-* Spyder in Anaconda.
-* Localhost server you can use MAMP local server.
-* All the needed packages to run all the python scripts.
+* PHP
+* Laravel
+* MySQL
+* Composer
 
 ### Installation
 
-1. Install the Toxicity Inspector files and store them in your localhost directory.
-2. In the Db.php file connect the MongoDB database using your username and password.
-   ```sh
-   $client = new MongoDB\Client(
-    'your connection should be written here'
-   );
-   ```
-3. Run all the Python files in Spyder make sure to edit the directories and to download the required modules <br>to download the modules paste the following code in the terminal:
-   ```sh
-   pip install module name
-   ```
-4. Edit the directories of the Python connection code in the following PHP files:
-* overallToxicity.php
-* InspectData.php
-* UploadedFileForm.php
-* comparison.php
-* feedback.php
-* interpretation.php
-* interpretationOfaComment.php
+1. Clone the repository to your local machine using Git.
+```sh
+git clone https://github.com/your-username/your-repo.git
+```
+2. Navigate to the project directory:
+```sh
+cd your-repo
+```
+3. Install the project's dependencies using Composer:
+```sh
+composer install
+```
+4. Create a new MySQL database for the project:
+```sh
+mysql -u root -p
+CREATE DATABASE your_database_name;
+```
 
-<br>**For example** edit the following command to match your python environment:
-   ```sh
-   $command = escapeshellcmd('write yout python environment here  API.py "'.$UploadedFile.'" "'.$fileID.'"');
-   ```
-5. Edit the directories of the following Python files:
-* API.py
-* APIar.py
-* InspectData.py
-* split.py
-* splitAPI.py
-* langDetection.py
-* IntereptToxicity.py
-* Advanced.py
-* AdvancedFeedback.py
-* BaseLine.py
-* BaseLineFeedback.py
-* scores.py
-* scoresFeedback.py
-* Feedback.py
+5. Update the .env file with your database credentials:
 
-<br>**For example** edit the first line of the python code to match the directory of your environment:
-   ```sh
-   #!write your environment directory here
-   ```
-6. Finally, run the files using your localhost server.
+6. Generate a new application key:
+```sh
+php artisan key:generate
+```
 
+7.Run the database migrations to create the necessary tables:
+```sh
+php artisan migrate
+```
 
+8. Seed the database with sample data:
+```sh
+php artisan db:seed
+```
 
-
-
+9. Start the development server:
+```sh
+php artisan serve
+```
