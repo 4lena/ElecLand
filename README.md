@@ -144,7 +144,7 @@ CREATE DATABASE your_database_name;
 php artisan key:generate
 ```
 
-7.Run the database migrations to create the necessary tables:
+7. Run the database migrations to create the necessary tables:
 ```sh
 php artisan migrate
 ```
