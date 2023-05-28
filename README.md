@@ -52,17 +52,23 @@ account on ElecLand or sign in if they already have an account.
 </div>
 On the home page users can navigate through the about us, top products, categories, and our features sections.
 
+---
+
 ### Registration
 <div align="center">
   <img src="media/2.gif" width="50%" alt="home page">
 </div>
 To register, users can click on the register button located on the drop-down menu on the right corner of the page. Then fill out the registration form.
 
+---
+
 ### Login 
 <div align="center">
-  <img src="media/3.gif" width="50%" alt="home page">
+  <img src="media/3.gif" width="0%" alt="home page">
 </div>
 To login, users can click on the login button located on the drop-down menu on the right corner of the page. Then fill out the registration form.
+
+---
 
 ### Validation
 <div align="center">
@@ -70,11 +76,15 @@ To login, users can click on the login button located on the drop-down menu on t
 </div>
 Before allowing users to submit their input, the system validates it for accuracy.
 
+---
+
 ### Logout
 <div align="center">
   <img src="media/4.gif" width="50%" alt="home page">
 </div>
 Users can logout.
+
+---
 
 ### Store Page
 <div align="center">
@@ -82,11 +92,15 @@ Users can logout.
 </div>
 Users can view all products on the store page and filter them by category using the category buttons.
 
+---
+
 ### Product details
 <div align="center">
   <img src="media/7.gif" width="50%" alt="home page">
 </div>
 Users can view the product details by clicking on it.
+
+---
 
 ### Add to Cart
 <div align="center">
@@ -94,17 +108,23 @@ Users can view the product details by clicking on it.
 </div>
 Users can add a product to their cart by clicking the 'Add to Cart' button. They will then be redirected to the cart page, where they can choose to continue shopping or proceed to checkout.
 
+---
+
 ### Checkout 
 <div align="center">
   <img src="media/9.gif" width="50%" alt="home page">
 </div>
 To complete the purchase, users must fill out the billing and payment forms on the checkout page.
 
+---
+
 ### Invoice 
 <div align="center">
   <img src="media/10.gif" width="50%" alt="home page">
 </div>
 After checking out, users will be redirected to the invoice page.
+
+---
 
 <!-- GETTING STARTED -->
 ## Getting Started
